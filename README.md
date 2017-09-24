@@ -15,6 +15,7 @@ docker run -d -p 8118:8118 -p 9050:9050 torpedo
 
 ```
 curl --proxy localhost:8118 https://www.google.com
+curl --socks5 localhost:9050 https://www.google.com
 ```
 
 ## Known issues
